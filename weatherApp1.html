@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Clima Hoje</title>
+    <link rel="stylesheet" href="weatherApp1.css">
+    <script src="weatherApp1.js" defer></script>
+</head>
+<body>
+<main class="main">
+    <section class="interface">
+        <header class="header">
+            <h1>Clima Hoje</h1>
+        </header>
+        <section>
+            <form id="form">
+                <input type="text" id="input" placeholder="Digite uma cidade..." required>
+                <button type="submit">Pesquisar</button>
+            </form>
+        </section>
+        <p id="status">Nenhuma pesquisa</p>
+        <section class="result" id="resultado" hidden>
+            <h2 id="nomeCidade"></h2>
+            <p id="temperatura"></p>
+            <p id="tempo"></p>
+            <p id="hora"></p>
+            <p id="umidade"></p>
+            <p id="vento"></p>
+            <p id="sensacaoTermica"></p>
+        </section>
+        <footer class="footer">
+            <p>Informações tiradas de <a href="https://open-meteo.com/" target="_blank">Open Meteo</a></p>
+        </footer>
+    </section>
+</main>
+</body>
+</html>
