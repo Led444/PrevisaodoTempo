@@ -16,8 +16,6 @@ Uma aplicação web para consultar a previsão do tempo de uma cidade informada 
 ## Tecnologias e serviços utilizados
 - HTML/CSS
 - JavaScript
-- [OpenMeteo](https://open-meteo.com/)
+- [Open-Meteo](https://open-meteo.com/)
 
 Desenvolvido por Led444
-
-q
